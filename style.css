@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-container {
+  border: solid black 2px;
+}
+
+#quote-body {
+  width: 700px;
+  height: 250px;
+  text-align: center;
+  font-size: 24px;
+  border: solid red 2px;
+}
+
+#quote-author {
+  border: solid green 2px;
+}
