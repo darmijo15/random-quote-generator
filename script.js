@@ -6,7 +6,6 @@ let quoteLibrary = {
         "Albert Einstein": "Strive not to be a success, but rather to be of value."
     };
 
-let quotePara = document.getElementById("#quote-body");
-let authorPara = document.getElementById("#quote-author");
-
-
+const quotePara = document.getElementById("#quote-body");
+const authorPara = document.getElementById("#quote-author");
+const quoteButton = document.getElementById("#quote-btn");
