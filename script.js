@@ -5,3 +5,8 @@ let quoteLibrary = {
         "Mae West": "You only live once, but if you do it right, once is enough.",
         "Albert Einstein": "Strive not to be a success, but rather to be of value."
     };
+
+let quotePara = document.getElementById("#quote-body");
+let authorPara = document.getElementById("#quote-author");
+
+
