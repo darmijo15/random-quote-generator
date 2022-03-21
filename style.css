@@ -13,11 +13,12 @@ body {
 
 #quote-container {
   border: solid black 2px;
+  height: 300px;
 }
 
 #quote-body {
   width: 700px;
-  height: 250px;
+  height: auto;
   text-align: center;
   font-size: 24px;
   border: solid red 2px;
