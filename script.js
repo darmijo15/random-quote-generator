@@ -39,7 +39,7 @@ quoteButton.addEventListener('click', function() {
 
     // Insert the quote into the quote-paragraph element so it displays 
     // on the webpage.
-    quotePara.innerHTML = `${randomQuote}`;
+    quotePara.innerHTML = `" ${randomQuote} "`;
     // Insert the quote's author into the author-paragraph element 
-    authorPara.innerHTML = `${randomAuthor}`;
+    authorPara.innerHTML = `- ${randomAuthor}`;
 })

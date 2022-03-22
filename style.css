@@ -9,21 +9,41 @@ body {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  background: radial-gradient(#1098f7, #00416a);
 }
 
 #quote-container {
-  border: solid black 2px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
   height: 300px;
+  background-color: #eeeff3;
+  border: solid #687791 10px;
+  border-radius: 20px;
 }
 
 #quote-body {
+  margin: 10px;
   width: 700px;
   height: auto;
   text-align: center;
   font-size: 24px;
-  border: solid red 2px;
+  font-family: "Abel", sans-serif;
 }
 
 #quote-author {
-  border: solid green 2px;
+  margin: 10px;
+  text-align: center;
+  font-size: 32px;
+  font-family: "Italianno", cursive;
+}
+
+#quote-btn {
+  font-size: 16px;
+  margin-top: 25px;
+  padding: 8px 16px;
+  background: #4085b2;
+  color: #fff;
+  border-style: none;
+  border-radius: 5px;
 }
